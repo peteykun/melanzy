@@ -15,7 +15,6 @@ class CreatePhotosTable extends Migration {
     Schema::create('photos', function($table)
     {
       $table->increments('id');
-      $table->text('file');   // file
       $table->string('caption_title');
       $table->text('caption_description');
       $table->timestamps();

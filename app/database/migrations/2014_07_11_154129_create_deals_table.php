@@ -15,7 +15,7 @@ class CreateDealsTable extends Migration {
     Schema::create('deals', function($table)
     {
       $table->increments('id');
-      $table->text('deals');
+      $table->text('description');
       $table->dateTime('start_time');
       $table->dateTime('end_time');
       $table->timestamps();

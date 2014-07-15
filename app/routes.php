@@ -16,7 +16,7 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-Route::get('{model}/a/file', array(
-    'as' => 'admin_display_file',
-    'uses' => 'Frozennode\Administrator\AdminController@displayFile'
-));
+Route::resource('admin/brands', 'Admin\BrandsController');
+Route::resource('admin/deals',  'Admin\DealsController' );
+Route::resource('admin/malls',  'Admin\MallsController' );
+Route::resource('admin/stores', 'Admin\StoresController');

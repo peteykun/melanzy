@@ -13,7 +13,6 @@ class MallTableSeeder extends Seeder {
       'address_pin' => '700032',
       'latitude' => '22.500623',
       'longitude' => '88.361094',
-      'logo' => 'j10fb3o1Sc32gKszE8XvV3s644d7KOVJ.png',
       'url' => 'http://southcitymall.in/'
     ));
   }
