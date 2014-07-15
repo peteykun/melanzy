@@ -6,8 +6,10 @@
 	"require": {
 		"laravel/framework": "4.2.*",
     "way/generators": "2.*",
-    "codesleeve/laravel-stapler": "1.0.*"
+    "codesleeve/laravel-stapler": "1.0.*",
+    "frozennode/social": "dev-master"
 	},
+  "minimum-stability": "dev",
 	"autoload": {
 		"classmap": [
 			"app/commands",
